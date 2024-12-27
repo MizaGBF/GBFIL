@@ -1,0 +1,91 @@
+html { 
+    background: #252526;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.element-detail {
+    list-style-type: '';
+    background: #2d2d30;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-shadow: #000000 1px 0 10px;
+    font-size: 28px;
+    border-color: #000000;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.element-detail:hover {
+    outline: solid #ffffff;
+}
+
+details[open] > .element-detail {
+    outline: solid #007acc;
+}
+
+.sub-detail {
+    width: 75%;
+    height: 30px;
+    font-size: 24px;
+}
+
+.sub-detail-child {
+    width: 70%;
+}
+
+.container {
+    background: #181818;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.loading {
+    background: url(../assets/ui/loading.gif) no-repeat;
+    min-width : 140px;
+    max-width : 140px;
+    height: 80px;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.tabcontent {
+    padding: 10px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.preview {
+    min-width : 140px;
+    max-width : 140px;
+    height: 80px;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: contain;
+}
