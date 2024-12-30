@@ -251,6 +251,7 @@ function display(node, key, path)
             setTimeout(display.bind(this, node, key, path), 500);
             return;
         }
+        let a = document.createElement('a');
         let img = document.createElement('img');
         img.classList.add("loading");
         img.classList.add("preview");
@@ -266,9 +267,11 @@ function display(node, key, path)
         {
             data[path].data[key].err += 1;
             data[path].data[key].on -= 1;
-            this.remove();
+            this.parentNode.remove();
         }
-        node.appendChild(img);
+        a.href = img.src.replace("_low", "");
+        a.appendChild(img);
+        node.appendChild(a);
         data[path].data[key].on += 1;
         data[path].data[key].count += data[path].data[key].add;
     }
