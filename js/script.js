@@ -126,6 +126,10 @@ var data = {
     "familiar":{"name":"Manatura", "data":{
         "0":{"name":"Manatura", "count":-1, "err":0, "on":0, "add":1, "max":1000}
     }},
+    "item/cosmetic":{"name":"Vyrn's equipment", "data":{
+        "0":{"name":"Armor", "count":-1, "err":0, "on":0, "add":1, "max":100},
+        "100":{"name":"Weapon", "count":-1, "err":0, "on":0, "add":1, "max":200}
+    }},
     "home/furniture_thumbnail":{"name":"Furniture", "extension":".png", "overridePre":"/frontier/assets/", "overridePost":"/img_m_", "data":{
         "10000":{"name":"Furniture I", "count":-1, "err":0, "on":0, "add":1, "max":20000}, 
         "20000":{"name":"Furniture II", "count":-1, "err":0, "on":0, "add":1, "max":30000}, 
