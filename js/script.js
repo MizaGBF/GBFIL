@@ -86,6 +86,8 @@ var data = {
         "20700":{"name":"Rifle VII", "count":-1, "err":0, "on":0, "add":1, "max":20800}, 
         "20800":{"name":"Rifle VIII", "count":-1, "err":0, "on":0, "add":1, "max":20900}, 
         "20900":{"name":"Rifle IX", "count":-1, "err":0, "on":0, "add":1, "max":21000}, 
+        "21000":{"name":"Rifle X", "count":-1, "err":0, "on":0, "add":1, "max":21100}, 
+        "21100":{"name":"Rifle XI", "count":-1, "err":0, "on":0, "add":1, "max":21200}, 
         
         "30100":{"name":"Cartridge I", "count":-1, "err":0, "on":0, "add":1, "max":30200}, 
         "30200":{"name":"Cartridge II", "count":-1, "err":0, "on":0, "add":1, "max":30300}, 
@@ -103,6 +105,7 @@ var data = {
         "31400":{"name":"Cartridge XIV", "count":-1, "err":0, "on":0, "add":1, "max":31500}, 
         "31500":{"name":"Cartridge XV", "count":-1, "err":0, "on":0, "add":1, "max":31600}, 
         "31600":{"name":"Cartridge XVI", "count":-1, "err":0, "on":0, "add":1, "max":31700}, 
+        "31700":{"name":"Cartridge XVII", "count":-1, "err":0, "on":0, "add":1, "max":31800}, 
         
         "40100":{"name":"Aetherial I", "count":-1, "err":0, "on":0, "add":1, "max":40200}, 
         "40200":{"name":"Aetherial II", "count":-1, "err":0, "on":0, "add":1, "max":40300}, 
@@ -114,7 +117,9 @@ var data = {
         "40800":{"name":"Aetherial VIII", "count":-1, "err":0, "on":0, "add":1, "max":40900}, 
         "40900":{"name":"Aetherial IX", "count":-1, "err":0, "on":0, "add":1, "max":41000}, 
         "41000":{"name":"Aetherial X", "count":-1, "err":0, "on":0, "add":1, "max":41100}, 
-        "41100":{"name":"Aetherial XI", "count":-1, "err":0, "on":0, "add":1, "max":41200}
+        "41100":{"name":"Aetherial XI", "count":-1, "err":0, "on":0, "add":1, "max":41200},
+        "41200":{"name":"Aetherial XII", "count":-1, "err":0, "on":0, "add":1, "max":41300},
+        "41300":{"name":"Aetherial XII", "count":-1, "err":0, "on":0, "add":1, "max":41400}
         
     }},
     "shield":{"name":"Shield", "data":{
