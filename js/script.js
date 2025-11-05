@@ -31,7 +31,9 @@ var data = {
         "20500":{"name":"Experience II", "count":-1, "err":0, "on":0, "add":1, "max":20600}, 
         "20300":{"name":"Papers", "count":-1, "err":0, "on":0, "add":1, "max":20400}, 
         "20400":{"name":"Books", "count":-1, "err":0, "on":0, "add":1, "max":20500}, 
-        "21000":{"name":"Chickens", "count":-1, "err":0, "on":0, "add":1, "max":21100}
+        "21000":{"name":"Chickens", "count":-1, "err":0, "on":0, "add":1, "max":21100}, 
+        "21500":{"name":"Rise of the Beasts", "count":-1, "err":0, "on":0, "add":1, "max":21600},
+        "21600":{"name":"Collabs", "count":-1, "err":0, "on":0, "add":1, "max":21700}
     }},
     "item/memorial":{"name":"Wonder", "data":{
         "0":{"name":"Story", "count":-1, "err":0, "on":0, "add":1, "max":1000}, 
